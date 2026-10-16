@@ -1,0 +1,14 @@
+## Why this exists
+
+I built these scripts because I needed them, and nothing else did the job.
+
+Exporting a single AI conversation is weirdly hard:
+
+- **Copy-paste breaks on long threads.** The DOM is virtualized, so `Ctrl+A → Ctrl+C` silently truncates. You don't notice until you've pasted into a doc and half the conversation is missing.
+- **Public links are not an export.** ChatGPT, DeepSeek, and Gemini all offer a "Share" button that produces a public URL. That's fine for showing someone a chat. It is not a way to save your own conversations privately, and it means anyone with the link can read them.
+- **Platform exports are all-or-nothing.** ChatGPT's "Export data" emails you an archive of *every* conversation you've ever had. That's the wrong shape when you want one thread, and it takes hours.
+- **Extensions and third-party tools want trust you don't have.** Installing a browser extension that reads every page you visit, to solve a problem you have once a month, is a bad trade.
+
+So I wrote three small scripts, one per platform, that do exactly one thing: sweep the current conversation, collect every message, and hand you a clean `.txt` file. No account. No server. No install. Nothing leaves the browser tab.
+
+It's not glamorous. It's the kind of tool you use once and forget about — which is the point.
