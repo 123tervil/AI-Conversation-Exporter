@@ -1,6 +1,6 @@
 # AI Conversation Exporter
 
-Extract the full text of a ChatGPT, DeepSeek, or Gemini conversation to a plain-text or Markdown file — working around the virtualized, lazy-loaded DOM that breaks `Ctrl+A`, `Ctrl+C`, `Ctrl+P`, and "Share" on long threads.
+Extract the full text of a ChatGPT, DeepSeek, Claude, or Gemini conversation to a plain-text or Markdown file — working around the virtualized, lazy-loaded DOM that breaks `Ctrl+A`, `Ctrl+C`, `Ctrl+P`, and "Share" on long threads.
 
 Three self-contained scripts. No install. No extension. No build step. Paste and go.
 
